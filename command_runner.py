@@ -13,9 +13,14 @@ while True:
         cmd = input('What command would you like to enter?\n> ')
 
         i = 0
+        found_command = False
+
         while i < commands.__len__():
                 if commands[i].get('name').lower() == cmd.lower():
                         print(f'Command found! ({i + 1}/{commands.__len__()})')
+                        found_command = True
 
                 i = i + 1
-        print('Command not found')
+
+        if not found_command:
+                print('Command not found')
