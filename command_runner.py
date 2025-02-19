@@ -15,7 +15,7 @@ while True:
         i = 0
         while i < commands.__len__():
                 if commands[i].get('name').lower() == cmd.lower():
-                        print(f'Command found! ({i}/{commands.__len__()})')
+                        print(f'Command found! ({i + 1}/{commands.__len__()})')
 
                 i = i + 1
         print('Command not found')
