@@ -1,4 +1,4 @@
-version = 'pv1' # prototype version 1
+version = 'pv2' # prototype version 2
 
 commands = [
         {
