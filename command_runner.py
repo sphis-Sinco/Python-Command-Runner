@@ -7,7 +7,7 @@ commands = [
         }
 ]
 
-print(f'Welcome to Command Runner v.${version}')
+print(f'Welcome to Command Runner v.{version}')
 
 while True:
         cmd = input('What command would you like to enter?\n> ')
